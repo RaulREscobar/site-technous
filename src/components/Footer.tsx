@@ -18,8 +18,10 @@ export default function Footer() {
           <h3 className="text-2xl font-bold font-gotham text-white mb-4">
             tech<span className='text-accent'>&#123;nous&#125;</span>
           </h3>
-          <p className="text-gray-400 font-montserrat">
-            Transformamos ideas en soluciones digitales que impulsan el futuro.
+          <p className="font-montserrat">
+            Transformamos ideas en
+            <br/><b>soluciones digitales</b> 
+            <br/>que impulsan el <b>futuro.</b>
           </p>
         </motion.div>
 

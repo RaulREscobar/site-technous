@@ -26,7 +26,7 @@ const servicios = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-white text-[#16192f] py-20 px-6">
+    <section id="services" className="bg-white text-primary py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

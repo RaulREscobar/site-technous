@@ -27,7 +27,7 @@ export default function Hero() {
           Innovamos en Marketing, Desarrollo de Software y Consultoría estratégica.
         </motion.p>
         <motion.a
-          href="#servicios"
+          href="#services"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}

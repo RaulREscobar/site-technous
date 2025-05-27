@@ -44,7 +44,7 @@ export default function Testimonials() {
   })
 
   return (
-    <section id="testimonios" className="bg-white py-20 px-6 text-[#16192f]">
+    <section id="testimonios" className="bg-white py-20 px-6 text-primary">
       <div className="max-w-4xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

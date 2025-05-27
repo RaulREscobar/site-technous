@@ -24,9 +24,10 @@ export default function MissionVision() {
             viewport={{ once: true }}
             className="bg-white p-8 rounded-2xl shadow-md"
           >
-            <h3 className="text-2xl font-semibold font-gotham mb-4 text-accent">Nuestra Misión</h3>
+            <h3 className="text-2xl font-semibold font-gotham mb-4 text-accent">Misión</h3>
             <p className="text-gray-700 font-montserrat leading-relaxed">
-            Impulsamos a las empresas mediante la transformación digital estratégica. Nos esforzamos por ofrecer soluciones de alto impacto en marketing, tecnología y consultoría que ayuden a nuestros clientes a crecer, adaptarse y liderar en sus sectores.
+             Tech nous, es una empresa que ofrece servicios de marketing digital, diseño gráfico, y software, a través de consultorías o entregando servicios de valor agregado.
+
             </p>
           </motion.div>
 
@@ -37,9 +38,10 @@ export default function MissionVision() {
             viewport={{ once: true }}
             className="bg-white p-8 rounded-2xl shadow-md"
           >
-            <h3 className="text-2xl font-semibold font-gotham mb-4 text-accent">Nuestra Visión</h3>
+            <h3 className="text-2xl font-semibold font-gotham mb-4 text-accent">Visión</h3>
             <p className="text-gray-700 font-montserrat leading-relaxed">
-            Convertirnos en un referente en innovación digital en América Latina, construyendo conexiones significativas entre marcas y tecnología, y creando soluciones que hagan el futuro más accesible y eficiente.
+             Consolidar la marca en Argentina y Latam a través de un <b>lenguaje comunicacional cercano,</b> pero a su vez <b>reflejando experiencia, innovación y confianza.</b>
+
             </p>
           </motion.div>
         </div>

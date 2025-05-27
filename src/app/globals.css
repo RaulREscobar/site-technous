@@ -28,8 +28,8 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-    --primary: #474da4;
-    --accent: #ff707f;
+    --primary: rgb(22,45,159);
+    --accent: #FF707F;
   }
 }
 
