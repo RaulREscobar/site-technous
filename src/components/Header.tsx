@@ -19,10 +19,10 @@ export default function Header() {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-[#16192f]/80 backdrop-blur-md">
+    <header className="fixed top-0 left-0 w-full z-50 bg-primary backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="#hero" className="text-white text-xl font-bold font-gotham">
-          tech<span className="text-[#ff707f]">&#123;nous&#125;</span>
+          tech<span className="text-accent">&#123;nous&#125;</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -31,7 +31,7 @@ export default function Header() {
             <a
               key={href}
               href={href}
-              className="text-white font-montserrat hover:text-[#ff707f] transition"
+              className="text-white font-montserrat hover:text-accent transition"
             >
               {label}
             </a>
@@ -66,7 +66,7 @@ export default function Header() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="md:hidden bg-[#16192f] text-white absolute top-full left-0 w-full px-6 pb-6"
+            className="md:hidden bg-primary text-white absolute top-full left-0 w-full px-6 pb-6"
           >
             <ul className="flex flex-col gap-4 mt-4 font-montserrat">
               {navItems.map(({ label, href }) => (
@@ -74,7 +74,7 @@ export default function Header() {
                   <a
                     href={href}
                     onClick={() => setIsOpen(false)}
-                    className="block text-lg hover:text-[#ff707f] transition"
+                    className="block text-lg hover:text-accent transition"
                   >
                     {label}
                   </a>

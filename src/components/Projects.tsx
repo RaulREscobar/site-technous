@@ -22,7 +22,7 @@ const proyectos = [
 
 export default function Projects() {
   return (
-    <section id="proyectos" className="bg-[#f9f9f9] py-20 px-6 text-[#16192f]">
+    <section id="proyectos" className="bg-primary py-20 px-6 text-white">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -38,7 +38,7 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
-          className="text-lg text-gray-600 font-montserrat mb-12"
+          className="text-lg text-white font-montserrat mb-12"
         >
           Algunos de los trabajos que realizamos con pasión y tecnología.
         </motion.p>

@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#16192f] text-gray-300 py-10 px-6">
+    <footer className="bg-primary text-gray-300 py-10 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Nombre y breve descripción */}
         <motion.div

@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center bg-[#16192f] text-white relative overflow-hidden px-6"
+      className="min-h-screen flex items-center justify-center bg-primary text-white relative overflow-hidden px-6"
     >
       <div className="max-w-5xl w-full text-center">
         <motion.h1
