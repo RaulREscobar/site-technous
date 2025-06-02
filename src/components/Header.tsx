@@ -6,11 +6,11 @@ import Link from 'next/link'
 
 const navItems = [
   { label: 'Inicio', href: '#hero' },
-  { label: 'Servicios', href: '#servicios' },
+  { label: 'Servicios', href: '#services' },
   { label: 'Proyectos', href: '#proyectos' },
   { label: 'Testimonios', href: '#testimonios' },
-  { label: 'Sobre Nosotros', href: '#sobre' },
-  { label: 'Contacto', href: '#contacto' },
+  { label: 'Sobre Nosotros', href: '#about' },
+  { label: 'Contacto', href: '#contact' },
 ]
 
 export default function Header() {

@@ -31,7 +31,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="inline-block mt-10 px-8 py-3 rounded-full bg-[#ff707f] text-white text-lg font-semibold hover:bg-rose-400 transition"
+          className="inline-block mt-10 px-8 py-3 rounded-full bg-accent text-white text-lg font-semibold hover:bg-rose-400 transition"
         >
           Descubrí nuestros servicios
         </motion.a>
